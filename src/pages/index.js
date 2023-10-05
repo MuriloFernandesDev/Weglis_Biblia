@@ -33,8 +33,8 @@ function Home() {
                     className="mt-2 text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeIn"
                     data-wow-delay=".s"
                   >
-                    Você quer aprender a ler a{' '}
-                    <span className="text-effect">Bíblia</span>?
+                    Quer aprender a <span className="text-effect">bíblia</span>{' '}
+                    do zero?
                   </h2>
                 </div>
                 {etapa === 1 ? (
