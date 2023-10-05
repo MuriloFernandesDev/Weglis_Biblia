@@ -38,7 +38,7 @@ function Home() {
                   </h2>
                 </div>
                 {etapa === 1 ? (
-                  <div className="flex gap-4">
+                  <div className="flex flex-col md:flex-row gap-4">
                     <button
                       className="btn btn-success px-8"
                       onClick={() => setEtapa(2)}

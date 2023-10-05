@@ -20,7 +20,7 @@ export default async (req, res) => {
 
       res.status(response.status).json(response.body)
     } catch (error) {
-      // console.log(error.response)
+      console.log(error.response)
       res
         .status(error.status || 500)
         .json(JSON.parse(error.response.text) || 'Something went wrong')
