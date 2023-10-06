@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Quer aprender a ler a bíblia?</title>
+        <title>Quer aprender a ler a Bíblia?</title>
       </Head>
       {loadingTheme ? (
         <div id="preloader-active">

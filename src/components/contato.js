@@ -71,7 +71,7 @@ const PaginaDeContato = ({ url_api }) => {
             data-wow-delay=".3s"
           >
             <input
-              className="w-full p-4 text-xs font-semibold leading-none rounded outline-none text-primary bg-primary-content/80 placeholder:text-primary"
+              className="w-full p-4 text-xs font-semibold leading-none rounded outline-none text-primary bg-primary-content/80 placeholder:text-primary motion-reduce"
               type="text"
               required
               placeholder="Seu nome"
@@ -86,7 +86,7 @@ const PaginaDeContato = ({ url_api }) => {
             data-wow-delay=".3s"
           >
             <input
-              className="w-full p-4 text-xs font-semibold leading-none rounded outline-none text-primary bg-primary-content/80 placeholder:text-primary"
+              className="w-full p-4 text-xs font-semibold leading-none rounded outline-none text-primary bg-primary-content/80 placeholder:text-primary motion-reduce"
               type="email"
               required
               placeholder="E-mail"
@@ -102,7 +102,7 @@ const PaginaDeContato = ({ url_api }) => {
             data-wow-delay=".3s"
           >
             <input
-              className="w-full p-4 text-xs font-semibold leading-none rounded outline-none text-primary bg-primary-content/80 placeholder:text-primary"
+              className="w-full p-4 text-xs font-semibold leading-none rounded outline-none text-primary bg-primary-content/80 placeholder:text-primary motion-reduce"
               type="tel"
               required
               placeholder="Idade"
