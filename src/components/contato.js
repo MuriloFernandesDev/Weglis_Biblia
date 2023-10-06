@@ -79,6 +79,7 @@ const PaginaDeContato = ({ url_api }) => {
               name="nome"
               value={data?.nome ?? ''}
               onChange={handleChange}
+              data-wow-duration="0s"
             />
           </div>
           <div
@@ -94,6 +95,7 @@ const PaginaDeContato = ({ url_api }) => {
               name="email"
               value={data?.email ?? ''}
               onChange={handleChange}
+              data-wow-duration="0s"
             />
           </div>
 
@@ -110,6 +112,7 @@ const PaginaDeContato = ({ url_api }) => {
               name="idade"
               value={data?.idade ?? ''}
               onChange={handleChange}
+              data-wow-duration="0s"
             />
           </div>
 
